@@ -76,3 +76,14 @@ h1{
 .score{
     font-size: 200px;
 }
+#poengknapp{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#p1poeng{
+    display: flex;
+}
+#p2poeng{
+    display: flex;
+    justify-content: end;
+}
