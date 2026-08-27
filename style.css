@@ -2,3 +2,59 @@ h1{
     display: flex;
     justify-content: center;
 }
+:root {
+  color-scheme: light dark;
+
+  --light-bg: ghostwhite;
+  --light-color: #020924;
+  --light-code: tomato;
+  --light-outline: #5bd6e1;
+  --light-gradient-start: #52b9db;
+  --light-gradient-end: #b22fbe;
+
+  --dark-bg: #020924;
+  --dark-color: ghostwhite;
+  --dark-code: gold;
+  --dark-outline: #5a1376;
+  --dark-gradient-start: #00ddc0;
+  --dark-gradient-end: #c9a0dc;
+}
+* {
+  background-color: light-dark(var(--light-bg), var(--dark-bg));
+  color: light-dark(var(--light-color), var(--dark-color));
+}
+
+.light {
+  color-scheme: light;
+}
+.dark {
+  color-scheme: dark;
+}
+
+#switch {
+  height: 50px;
+  width: 50px;
+  padding: 0px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border: none;
+  outline: solid light-dark(var(--light-outline), var(--dark-outline));
+}
+#switch svg:last-child {
+  display: none;
+}
+
+.dark #switch svg:first-child {
+  display: none;
+}
+.dark #switch svg:last-child {
+  display: block;
+}
+#switch:hover {
+  cursor: pointer;
+}
