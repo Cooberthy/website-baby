@@ -59,3 +59,20 @@ h1{
     display: flex;
     justify-content: center;
 }
+
+#poeng{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+#p1{
+    display: flex;
+}
+#p2{
+    display: flex;
+    justify-content: end; 
+}
+
+.score{
+    font-size: 200px;
+}
