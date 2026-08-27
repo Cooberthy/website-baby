@@ -1,7 +1,4 @@
-h1{
-    display: flex;
-    justify-content: center;
-}
+
 :root {
   color-scheme: light dark;
 
@@ -57,4 +54,8 @@ h1{
 }
 #switch:hover {
   cursor: pointer;
+}
+h1{
+    display: flex;
+    justify-content: center;
 }
