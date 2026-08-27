@@ -41,3 +41,11 @@ function take2(){
     p2score-= 1
     score2.textContent = p2score
 }
+function nullstill1(){
+    p1score = 0
+    score1.textContent = p1score
+}
+function nullstill2(){
+    p2score = 0
+    score2.textContent = p2score
+}
