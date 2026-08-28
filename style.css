@@ -63,6 +63,7 @@ h1{
 #poeng{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    outline: solid;
     
 }
 #p1{
@@ -91,4 +92,8 @@ h1{
   display: grid;
   grid-template-rows: 1fr 1fr;
   justify-content: center;
+}
+#sitatbutton{
+  height: 
+  50px;
 }
