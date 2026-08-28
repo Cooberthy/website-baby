@@ -60,3 +60,10 @@ function nullstill2(){
     score2.textContent = p2score
 }
 
+function comic(){
+    if(page.classList.contains("sans")){
+        page.classList.remove("sans") 
+    } else {
+        page.classList.add("sans")
+    }
+}
