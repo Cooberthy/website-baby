@@ -16,3 +16,6 @@ Svg {
 .sans{
   font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
+.gradiant{
+  background: linear-gradient( to right, #00ddc0, purple);
+}

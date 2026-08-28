@@ -67,3 +67,13 @@ function comic(){
         page.classList.add("sans")
     }
 }
+function colour(){
+        if(page.classList.contains("gradiant")){
+        page.classList.remove("gradiant") 
+    } else {
+        page.classList.add("gradiant")
+    } 
+}
+function blahaj(){
+    document.getElementById("haj").style.visibility = "visible"
+}
