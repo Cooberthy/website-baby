@@ -63,7 +63,6 @@ h1{
 #poeng{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    outline: solid;
     
 }
 #p1{
