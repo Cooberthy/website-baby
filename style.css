@@ -87,3 +87,8 @@ h1{
     display: flex;
     justify-content: end;
 }
+#sitatdiv{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+}
